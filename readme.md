@@ -1,5 +1,5 @@
 # Portfolio Page for AlexPate.net
 
-[portfolio.alexpate.net](http://portforlio.alexpate.net)
+[portfolio.alexpate.net](http://portfolio.alexpate.net)
 
 WIP
