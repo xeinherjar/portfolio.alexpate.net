@@ -1,3 +1,13 @@
+a {
+  text-decoration: none;
+  color: RGBA(251, 223, 171, 1);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 .header-container {
   background-color: RGBA(226, 92, 34, 1);
   color: RGBA(251, 223, 171, 1);
@@ -17,7 +27,10 @@
 
 .about-container {
   background-color: white;
-  padding: 25px 10px;
+}
+
+.about {
+  padding: 45px 100px;
 }
 
 .skills-container {
@@ -57,7 +70,8 @@
 }
 
 .projects-odd {
-  background-color: RGBA(188, 188, 188, 1);
+  color: white;
+  background-color: RGBA(124, 124, 124, 1);
 }
 
 .projects-even, .projects-odd {
@@ -65,8 +79,14 @@
   overflow: auto;
 }
 
+.p-item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
 .screenshot img {
-  width: 300px;
+  width: 500px;
   border-radius: 5px;
 }
 
@@ -90,7 +110,7 @@
 
 .tech {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   font-style: italic;
 }
 
